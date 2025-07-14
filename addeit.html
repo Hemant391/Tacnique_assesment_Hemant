@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Employee</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Add Employee</h2>
+    <form id="employeeForm">
+      <label>First name <input type="text" id="firstName" required></label>
+      <label>Last name <input type="text" id="lastName" required></label>
+      <label>Email <input type="email" id="email" required></label>
+      <label>Department <input type="text" id="department" required></label>
+      <label>Role <input type="text" id="role" required></label>
+      <div class="form-buttons">
+        <button type="button" onclick="window.location.href='index.ftl'">Cancel</button>
+        <button type="submit">Add</button>
+      </div>
+    </form>   
+  </div>
+  <script src="js/form.js"></script>
+</body>
+</html>
